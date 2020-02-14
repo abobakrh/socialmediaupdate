@@ -1,0 +1,44 @@
+body{
+  background-color: #edf7fa;
+}
+.brand{
+  font-weight: bold;
+  font-size: 20px;
+}
+.mycont .row .im img{
+  height: 80px;
+  padding-left: 120px;
+}
+.mycont{
+  margin-top: 50px;
+}
+.mycont .row .col-sm-3 ul .profile{
+  background-color: #ededed;
+}
+.mycont .profile_cont{
+  margin-bottom: 20px;
+}
+.timeline{
+  text-align: center;
+  border: solid;
+  border-bottom: none;
+  width: 610px;
+  height: 900px;
+  position: relative;
+  left: 510px;
+  bottom: 462px;
+
+}
+.friend-list{
+  text-align: center;
+  border: solid;
+  width: 200px;
+  height: 900px;
+  position: relative;
+  left: 1230px;
+  bottom: 1360px;
+}
+.user-img{
+  margin-bottom: 30px;
+  width: 1100px;
+}

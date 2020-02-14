@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Profile.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+      <img src="t.png" alt="" class="logo">
+        <a href="#" class="navbar-brand brand">Telepath</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Profile</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Inbox</a>
+                        <a href="#" class="dropdown-item">Sent</a>
+                        <a href="#" class="dropdown-item">Drafts</a>
+                    </div>
+                </div>
+            </div>
+            <form class="form-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link">Signout</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mycont">
+      <div class="user-img">
+        <div class="row">
+          <div class="col-sm-10">
+            <h1>USERNAME</h1>
+          </div>
+          <div class="col-sm-2 im">
+            <img src="images.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row profile_cont">
+        <div class="col-sm-3">
+          <ul class="list-group">
+            <li class="list-group-item text-muted profile">Profile</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Joined</strong></span> ...... </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Last seen</strong></span> ...... </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Real name</strong></span> ..... </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="list-group">
+            <li class="list-group-item text-muted profile">Activity</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Posts</strong></span> ...... </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Likes</strong></span> ...... </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Shares</strong></span> ..... </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Friends</strong></span> ..... </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <h2>POSTS</h2>
+
+    </div>
+
+    <div class="friend-list">
+      <h2>FRIENDS</h2>
+
+    </div>
+
+
+
+
+  </body>
+</html>
